@@ -11,8 +11,8 @@
     border-radius: 10px;
     border-width: 1px;
     border-style: solid;
-    border-color: var(--dark_grey);
-    background-color: var(--bg_elements);
+    border-color: $dark_grey;
+    background-color: $bg_elements;
     overflow: hidden;
     color: inherit;
     display: flex;
@@ -20,7 +20,7 @@
     text-decoration: none !important;
 
     &:hover {
-        border-color: var(--grey);
+        border-color: $grey;
     }
 
     .attachments {
@@ -46,7 +46,7 @@
 
 .card-destination {
     @include ellipsis;
-    color: var(--grey);
+    color: $grey;
     display: block;
 }
 
@@ -76,7 +76,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: var(--bg_overlays);
+    background-color: $bg_overlays;
 
     img {
         width: 100%;
@@ -111,7 +111,7 @@
     .card-image {
         position: unset;
         border-style: solid;
-        border-color: var(--dark_grey);
+        border-color: $dark_grey;
         border-width: 0;
         border-bottom-width: 1px;
     }

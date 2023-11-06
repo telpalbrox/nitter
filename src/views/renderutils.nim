@@ -3,7 +3,7 @@ import strutils, strformat
 import karax/[karaxdsl, vdom, vstyles]
 import ".."/[types, utils]
 
-const smallWebp* = "?name=small&format=webp"
+const smallWebp* = "?name=small&format=jpg"
 
 proc getSmallPic*(url: string): string =
   result = url

@@ -2,20 +2,20 @@
 
 .quote {
     margin-top: 10px;
-    border: solid 1px var(--dark_grey);
+    border: solid 1px $dark_grey;
     border-radius: 10px;
-    background-color: var(--bg_elements);
+    background-color: $bg_elements;
     overflow: hidden;
     pointer-events: all;
     position: relative;
     width: 100%;
 
     &:hover {
-        border-color: var(--grey);
+        border-color: $grey;
     }
 
     &.unavailable:hover {
-        border-color: var(--dark_grey);
+        border-color: $dark_grey;
     }
 
     .tweet-name-row {
@@ -74,7 +74,7 @@
     .gallery-gif .attachment {
         display: flex;
         justify-content: center;
-        background-color: var(--bg_color);
+        background-color: $bg_color;
 
         video {
             height: unset;

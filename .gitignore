@@ -8,7 +8,9 @@ nitter
 /tools/gencss
 /tools/rendermd
 /public/css/style.css
+/public/css/style.css.map
 /public/md/*.html
 nitter.conf
 guest_accounts.json*
 dump.rdb
+.sass-cache
