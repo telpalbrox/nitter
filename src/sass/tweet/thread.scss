@@ -94,8 +94,8 @@
 }
 
 .timeline-item.thread-last::before {
-    background: unset;
-    min-width: unset;
+    background: auto;
+    min-width: auto;
     width: 0;
     margin: 0;
 }

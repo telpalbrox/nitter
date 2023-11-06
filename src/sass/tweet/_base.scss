@@ -17,7 +17,6 @@
 }
 
 .tweet-content {
-    margin-top: -28px;
     font-family: $font_3;
     line-height: 1.3em;
     pointer-events: all;
@@ -33,7 +32,7 @@
     padding: 0;
     vertical-align: bottom;
     flex-basis: 100%;
-    margin-bottom: .2em;
+    margin-bottom: 0.8em;
 
     a {
         display: inline-block;
@@ -102,6 +101,8 @@
 
 .avatar {
     &.round {
+        position: absolute;
+        z-index: 2;
         border-radius: 50%;
         -webkit-user-select: none;
     }
