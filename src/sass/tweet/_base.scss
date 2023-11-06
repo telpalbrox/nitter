@@ -17,10 +17,10 @@
 }
 
 .tweet-content {
+    margin-top: -28px;
     font-family: $font_3;
     line-height: 1.3em;
     pointer-events: all;
-    display: inline;
 }
 
 .tweet-bidi {
@@ -28,6 +28,8 @@
 }
 
 .tweet-header {
+    display: flex;
+    justify-content: space-between;
     padding: 0;
     vertical-align: bottom;
     flex-basis: 100%;
@@ -42,6 +44,7 @@
 }
 
 .tweet-name-row {
+    width: 100%;
     padding: 0;
     display: flex;
     justify-content: space-between;
