@@ -4,7 +4,7 @@
 button {
     @include input-colors;
     background-color: $bg_elements;
-    color: $bg_color;
+    color: $fg_color;
     border: 1px solid $accent_border;
     padding: 3px 6px;
     font-size: 14px;
@@ -18,7 +18,7 @@ select {
     @include input-colors;
     background-color: $bg_elements;
     padding: 1px 4px;
-    color: $bg_color;
+    color: $fg_color;
     border: 1px solid $accent_border;
     border-radius: 0;
     font-size: 14px;
@@ -52,7 +52,7 @@ input::-webkit-datetime-edit-day-field:focus,
 input::-webkit-datetime-edit-month-field:focus,
 input::-webkit-datetime-edit-year-field:focus {
     background-color: $accent;
-    color: $bg_color;
+    color: $fg_color;
     outline: none;
 }
 
